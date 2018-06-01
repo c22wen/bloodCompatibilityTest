@@ -1,10 +1,9 @@
-
-
-
+;; BLOOD TYPE COMPATIBILITY TEST
 
 ;; (blood_test) takes in 2 blood types and determines 
 ;;    they are compatible or not
 ;; effects: produces output
+
 (defn blood_test []
   ; Definitions
     (def compat "They are compatible!")
@@ -32,10 +31,3 @@
                 (= recipient "AB-"))) (println compat)
       :else (println not_compat))
   )
-
-
-
-
-
-
-
